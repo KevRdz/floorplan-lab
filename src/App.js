@@ -1,17 +1,12 @@
 import './App.css';
-
-import './App.css'
+import Kitchen from './Kitchen';
+import LivingRoom from './LivingRoom';
 
 function App() {
   return (
     <div>
-      {/* <Kitchen />
-      <LivingRoom />
-      <Bedroom />
-      <Bedroom />
-      <Bedroom />
-      <Bath />
-      <Bath /> */}
+      <Kitchen />
+      <LivingRoom/>
     </div>
   )
 }

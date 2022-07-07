@@ -1,8 +1,7 @@
 const Kitchen = () => {
   return (
     <>
-    <h2>Oven</h2>
-    <h2>Sink</h2>
+    <h1>Kitchen</h1>
     </>
   )
 }
