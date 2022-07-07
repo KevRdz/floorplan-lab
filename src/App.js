@@ -7,11 +7,12 @@ import Bath from './Bath';
 function App() {
   return (
     <div>
+      <Bath size={'Half'}/>
       <Kitchen />
       <Bedroom bedNum={1}/>
       <LivingRoom/>
       <Bedroom bedNum={3}/>
-      <Bath />
+      <Bath size={'Full'}/>
       <Bedroom bedNum={2}/>
     </div>
   )
