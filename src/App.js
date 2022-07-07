@@ -8,9 +8,11 @@ function App() {
   return (
     <div>
       <Kitchen />
+      <Bedroom bedNum={1}/>
       <LivingRoom/>
-      <Bedroom />
+      <Bedroom bedNum={3}/>
       <Bath />
+      <Bedroom bedNum={2}/>
     </div>
   )
 }
